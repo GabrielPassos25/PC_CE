@@ -8,6 +8,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --blue: #007bff;
+  --blue-focus: #0056b3;
+  --gray: #ccc;
+  --white: #fff;
+  --black: #000;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,

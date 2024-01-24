@@ -1,0 +1,63 @@
+/* Estilos para o formulário */
+.styled-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--gray);
+  background-color: var(--white);
+  width: 400px;
+}
+
+/* Estilos para os campos de entrada */
+.styled-input {
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  animation: fadeIn 0.5s ease-out;
+  border: 1px solid var(--gray);
+  padding: 10px;
+  outline: none;
+  background-color: var(--white);
+  color: var(--black);
+  height: 56px;
+  margin: 10px 0 0 0;
+}
+
+.styled-input:focus {
+  border-color: var(--blue);
+}
+
+/* Estilos para o botão */
+.styled-button {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.styled-button:hover {
+  background-color: var(--blue-focus);
+}
+
+/* Estilos para o componente de autocompletar */
+.styled-autocomplete {
+  width: 100%;
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
