@@ -35,3 +35,6 @@ Follow these steps to run the application locally:
     # or
     yarn dev
 4. Access the application in your browser at <a>http://localhost:3000</a>
+
+## Preview
+![GIF](./readme_assets/Challenge-Police-Opera-2024-01-24-13-44-27.gif)
